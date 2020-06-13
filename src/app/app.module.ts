@@ -11,11 +11,10 @@ const ROUTES: Routes = [
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomeModule) },
   { path: 'hola-osw', loadChildren: () => import('./hola-osw/hola-osw.module').then(m => m.HolaOswModule) },
-
   { path: 'que-tal-osw', loadChildren: () => import('./que-tal-osw/que-tal-osw.module').then(m => m.QueTalOswModule)},
+  { path: 'chao-osw', loadChildren: () => import('./chao-osw/chao-osw.module').then(m => m.ChaoOswModule)},
   { path: '**', redirectTo: '/' }
 ];
-
 @NgModule({
   declarations: [
     AppComponent

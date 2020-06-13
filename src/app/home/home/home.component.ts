@@ -18,4 +18,7 @@ export class HomeComponent implements OnInit {
   goToQueTal() {
     this.router.navigate(['que-tal-osw']);
   }
+  goToChao() {
+    this.router.navigate(['chao-osw']);
+  }
 }

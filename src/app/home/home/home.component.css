@@ -1,0 +1,25 @@
+div {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+button {
+    margin-right: 10px;
+}
+
+button {
+    background-color: white;
+    border: 3px solid #003da5;
+    color: #003da5;
+    text-transform: uppercase;
+    height: inherit;
+    width: inherit;
+    transition: background-color 0.5s ease, color 1s ease;
+    cursor: pointer;
+    /* box-shadow: 10px 10px rgba(77, 77, 77, 0.5); */
+  }
+  
+  button:hover {
+    background-color: #003da5;
+    color: white;
+  }
